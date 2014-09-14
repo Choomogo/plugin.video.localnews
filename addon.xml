@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.video.localnews"
+  version="0.0.1"
+  name="Local News"
+  provider-name="Michael Archibald">
+  <requires>
+    <import addon="xbmc.python"
+            version="2.1.0"/>
+    <import addon="script.module.beautifulsoup"
+            version="3.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Local news from around the country</summary>
+    <description>Index of local news feeds from around the country</description>
+    <language>en</language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <source>https://github.com/Choomogo/plugin.video.localnews</source>
+  </extension>
+</addon>
