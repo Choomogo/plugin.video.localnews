@@ -5,10 +5,8 @@
   name="Local News"
   provider-name="Michael Archibald">
   <requires>
-    <import addon="xbmc.python"
-            version="2.1.0"/>
-    <import addon="script.module.beautifulsoup"
-            version="3.2.0"/>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
              library="addon.py">
